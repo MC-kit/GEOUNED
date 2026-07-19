@@ -23,6 +23,8 @@ geouned = { path = ".", editable = true }
 
 [feature.test.dependencies]
 pytest = ">=9.0"
+pytest-xdist = ">=3.8.0,<4"
+pytest-cov = ">=7.1.0,<8"
 
 [feature.test.tasks]
 test = "pytest"
